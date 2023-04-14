@@ -1,0 +1,1325 @@
+/*  Imported Fonts */
+@font-face {
+    font-family:'skywerdregular';
+    src: url('font/cloudward-webfont.woff2') format('woff2'),
+         url('font/cloudward-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap'); 
+
+
+/*  General Site Styles */
+html {
+    scroll-behavior: smooth;
+} 
+
+body{
+    padding: 15px;
+}
+
+
+h1{
+    font-family: 'Poppins';
+    
+    font-size: 50px; /* 3rem = 3 times the root em size */
+    line-height:1.5;
+    color:#000;
+    letter-spacing: 0.025em;
+    padding: 0  0 10px 0;
+}
+.header-one-half{
+    font-weight: 400;
+    font-size: 35px;
+    line-height:1.5;
+    color:#000;
+    letter-spacing: 0.025em;
+    padding: 0  0 10px 0;
+
+}
+
+h2{
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 0.025em;
+    padding: 0  0 10px 0;
+}
+.header-two-light{
+    font-weight: 300;
+    font-size: 45px;
+    line-height:1.5;
+    color:#000;
+    letter-spacing: 0.025em;
+    padding: 0  0 10px 0;
+
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    padding: 0  0 15px 0;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    font-family: 'Poppins';
+    padding: 20px  0 10px 0;
+    font-size: 24px;
+    /*letter-spacing: 0.05em;*/
+    letter-spacing: 0.025em;
+    color: #0000006b;
+}
+
+h5{
+    font-family: 'Poppins';
+    position: relative; top: -20px;
+    font-size: 24px;
+    /*letter-spacing: 0.05em;*/
+    letter-spacing: 0.025em;
+    color: #0000006b;
+}
+h6{
+    font-family: 'Poppins';
+    font-size: 24px;
+    /*letter-spacing: 0.05em;*/
+    letter-spacing: 0.025em;
+    color: #0000006b;
+}
+
+p{
+    /*font-family: 'Swis721 BT';*/
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 0.0125em;
+  
+}
+
+.insiGrey-text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #454B52;
+    letter-spacing: 0.0125em;
+    padding: 0 0 10px 0;
+}
+
+.insiGrey{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #454B52;
+    letter-spacing: 0.0125em;
+}
+
+.no-margin{
+    margin: 2px;
+}
+
+.no-padding{
+    padding: 0 0;
+}
+
+.no-space{
+    padding: 0 0;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.centered{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+/*
+.word-wrap{
+    word-wrap: break-word;
+}
+*/
+.row2{
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-9{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* Navigation Bar */
+#navigation{
+    /* change top and bottom padding to 3% with 4 links navbar */
+    padding: 0% 0% 0% 0%;
+    /*text-align: center;*/
+}
+
+.container{
+    padding: 3% 2%;
+}
+
+
+/* Different Nav Bars */
+
+/* left aligned Navigation Bar /*
+.navbar-header.navbar-right.pull-right {
+    margin-right: 15px;
+
+*/
+/*
+.navbar-right > li {
+    float: left;
+}
+*/
+.navbar{
+    padding: 0.5em 0em;
+}
+.nav-bar-link{
+    padding:10px 10px 10px 10px;
+    color:#000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    position: relative; top: 5px;
+}
+
+.nav-bar-link:hover{
+    /*padding:10px 5px 10px 5px;*/
+    background-color: #e9c9a03f; ;
+    border-radius: 10px;
+    color:#000;
+    text-decoration: none;
+    font-family: 'Poppins';
+    /*font-size: 22px;*/
+    /*letter-spacing: 0.05em;*/
+}
+/*
+.navbar-brand2 img{
+    transform: rotate(1deg);
+    text-align: left;
+    width: 50%;
+    height:50%;
+
+}
+*/
+
+
+/* Centered Navigation Bar 
+
+.tiny{
+    width:30px;
+    height:30px;
+}
+.d-lg-block{
+    padding: 0 0px 0 70px;
+}
+*/
+/*
+.nav-link{
+    padding:10px 10px 10px 5px;
+    color:#000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+  
+.nav-item{
+    padding:10px 10px 10px 5px;
+    color:#000;
+    font-family: 'Poppins';
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+
+.nav-link:hover{
+    padding:10px 5px 10px 5px;
+    /*background-color: #8cc6dd;
+    border-radius: 10px;
+    color:#000;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 22px;
+    letter-spacing: 0.05em;
+}
+*/
+
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.navbar-brand img{
+    transform: rotate(1deg);
+    padding: 0px 0px 0px 0px;
+    width: 50px;
+    height: 50px;
+    margin-right: 0;
+
+}
+
+/*
+.navbar-brand-img{
+    transform: rotate(1deg);
+}
+*/
+
+.navbar-toggler{
+    color: black;
+    background-color: white;
+}
+
+.signature{
+    transform: rotate(1deg);
+}
+
+
+/* Floating contact/social Icons */
+.icons{
+    top: 45%;
+    right: 12px;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+}
+
+.icons ul{
+    padding:initial;
+}
+
+
+.icons ul li{
+    height:50px;
+    width: 20px;
+    list-style-type: none;
+    padding-top:6px;
+    margin-top: 5px;
+    border-radius: 2.5px;
+    color:#000;
+    /* background: #93d598; brown color- #bf9e8b; 
+    /*box-shadow: 0px 5px 10px rgba(0,0,0,.2);*/
+
+}
+
+
+.icons ul li:hover{
+    color:#e9c9a0ca;
+}
+
+
+
+/* Home Page */
+
+/* Hero Section */
+#title{
+    /* change top padding to 3% when have 4 link navbar */
+    padding: 0% 10% 3% 10%;
+    text-align: center;
+    position: relative; top: 0px;
+}
+
+/*  Rollover on Hover Images  */
+.figure {
+    position: relative;
+    /*width: 360px;  can be omitted for a regular non-lazy image */
+    max-width: 60%;
+   
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+    opacity: 1;
+}
+
+.image-hover{
+    background-color: white;
+}
+
+.down-arrow{
+    text-decoration: none;
+    color:black;
+}
+
+.down-arrow:hover{
+    text-decoration: none;
+    color: #e9c9a0ca;
+}
+
+
+
+/* Projects Section */
+#projects{
+    padding: 4% 10%;
+    text-align: left;
+    background-color: #fff;
+    position: relative; top: -60px;
+    
+}
+    
+.projects-column{
+    padding: 3% 2%;
+}
+
+/* Project Cards */
+.card{
+
+    padding: 20px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    background-color:#fff;
+    word-wrap: normal;
+
+   
+    /* Glass morphism card
+        max-width: 300px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+        max-width: 500px;
+        height: 300px;
+        padding: 35px;
+      
+        border: 1px solid rgba(255, 255, 255, .25);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.45);
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+      
+        backdrop-filter: blur(15px);
+    */
+}
+
+.card-effects{
+    transition: transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card-effects:hover {
+    transform: scale(1.1);
+    /*box-shadow: 0 5px 10px /*color here;*/
+}
+
+
+.WIP{
+    background-color:rgb(229, 228, 228);
+}
+
+.card-img-top {
+    object-fit: contain;
+}
+
+.rounded{
+    border-radius: 15px;
+}
+
+
+.no-decoration:hover{
+    text-decoration: none;  
+}
+
+/* Ribbons on Project Cards */
+.ribbon-wrapper { 
+    width: 88px;
+    height: 88px; 
+    position: absolute; 
+    top: -3px; 
+    right: -3px;
+    z-index: 1;
+}
+
+.ribbon-tag { 
+    text-align: center; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    position: relative; 
+    padding: 6px 0px; 
+    left: -4px; 
+    top: 15px; 
+    width: 140px; 
+    color: #000000; 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+    background: #8cc6dd; 
+    border-radius: 5px;
+}
+
+.ribbon-tag:before { 
+    left: 0;
+}
+.ribbon-tag:after { 
+    right: 0;
+}
+
+.ribbon-tag-orange { 
+    text-align: center; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    position: relative; 
+    padding: 6px 0px; 
+    left: -4px; 
+    top: 15px; 
+    width: 140px; 
+    color: #000000; 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+    background: #ffaa79; 
+    border-radius: 5px;
+}
+
+.ribbon-tag-yellow { 
+    text-align: center; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    position: relative; 
+    padding: 6px 0px; 
+    left: -4px; 
+    top: 15px; 
+    width: 140px; 
+    color: #000000; 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+    background: #f8eda2; 
+    border-radius: 5px;
+}
+
+.ribbon-tag-green { 
+    text-align: center; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    position: relative; 
+    padding: 6px 0px; 
+    left: -4px; 
+    top: 15px; 
+    width: 140px; 
+    color: #000000; 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+    background: #93d598; 
+    border-radius: 5px;
+}
+
+
+.ribbon-tag-grey { 
+    text-align: center; 
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    position: relative; 
+    padding: 6px 0px; 
+    left: -4px; 
+    top: 15px; 
+    width: 140px; 
+    color: #000000; 
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3); 
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px; 
+    background: #9fa39f; 
+    border-radius: 5px;
+}
+ 
+
+
+
+
+/* INSI Page */
+
+/* INSI page sections */
+#project-title{
+    padding: 0% 10%;
+    text-align: left;
+}
+
+#project-details{
+    padding: 0% 10% 6% 11%;
+    text-align: left;
+}
+
+#intro{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#motivation{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#problem{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+    margin: 0px;
+}
+
+#our-solution{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+.bottom-padding{
+    padding: 5% 0% 10% 0%;
+}
+.side-padding{
+    padding: 0% 10% 0% 10%;
+}
+
+#our-process{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#empathize{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#define{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#ideate{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+.side-padding2{
+    padding: 0% 5% 0% 2%;
+}
+
+#lofi-prototype{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#lofi-testing{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+.move-up{
+    position: relative; top: -20px;
+}
+#hifi-prototype{
+    padding: 0% 2% 10% 11%;
+    text-align: left;
+}
+
+#hifi-testing{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#reflection{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+
+#wishes{
+    padding: 0% 2% 6% 12%;
+    text-align: left;
+}
+
+#other-projects{
+    padding: 0% 2% 10% 12%;
+    text-align: left;
+}
+.obj-vertical-space{
+    padding: 0% 0% 6% 0%;
+}
+
+
+.INSI-motivation-pic{
+    width:90%;
+    height:90%;
+}
+.user-test-imgs{
+    border-radius: 30px;
+}
+
+/* Testimonials Section */
+.carousel-item{
+    padding:6% 15%;
+    width: 100%;
+    text-align: center;
+    background-color: #E7F5F5;
+    border-radius: 30px;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+}
+
+#press{
+    background-color: #fff;
+    text-align: center;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px; /* 20px top, 20px left and right, 50px bottom */
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+
+/* MCC Page */
+
+
+#day1{
+    padding: 0% 2% 6% 12%;
+    text-align: left;
+}
+
+#day2{
+    padding: 0% 2% 6% 12%;
+    text-align: left;
+}
+
+#day3{
+    padding: 0% 2% 6% 12%;
+    text-align: left;
+}
+
+
+/* INSI2 Page */
+main {
+    margin-bottom: calc(var(--space-md) * -1);
+    margin-left: calc(var(--space-md) * -1);
+  }
+  
+  main > * {
+    margin-bottom: var(--space-md);
+    margin-left: var(--space-md);
+  }
+  
+  article > * + * {
+    margin-top: var(--space);
+  }
+  
+  .component {
+    position: relative;
+    border: 1px solid var(--color-primary);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
+      0 4px 8px rgba(0, 0, 0, 0.03), 0 8px 16px rgba(0, 0, 0, 0.03),
+      0 16px 32px rgba(0, 0, 0, 0.02), 0 32px 64px rgba(0, 0, 0, 0.02);
+  }
+  
+  .component .header,
+  .component .footer {
+    padding: var(--space-sm);
+    text-align: left;
+  }
+  
+  .component .header {
+    border-bottom: inherit;
+  }
+  
+  .component .footer {
+    /*
+    display: flex;
+    justify-content: space-between; */
+    border-top: inherit;
+  }
+  
+  .component .content {
+    padding: var(--space-sm);
+    max-height: 500px;
+    overflow-y: auto;
+    color: var(--color-dark);
+  }
+  
+  .empty-text {
+    text-align: left;
+  }
+
+
+
+/* About Page */
+
+#about-1{
+    padding: 0% 15% 4% 15%;
+    text-align: justify;
+    
+}
+
+#about{
+    padding: 4% 15%;
+    text-align: justify;
+    
+}
+.about-me-pic{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.about-me-pics{
+    width: 70%;
+    padding: 0% 0% 10% 0%;
+}
+
+
+
+/* Footer Section*/
+#footer{
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Poppins';
+    
+}
+
+.logo-footer{
+    width: 20px;
+    padding: 0 0 5px 0;
+}
+
+.social-icons{
+    margin: 20px 5px;
+}
+
+.p-footer1{
+    font-family: 'Poppins';
+    color:#000;
+    font-size: 18px;
+}
+.p-footer2{
+    color:#000;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.p-footer3{
+    font-family: 'Poppins';
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    padding:20px 0px 10px;
+}
+.p-footer4{
+    font-family: 'Poppins';
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    text-align: left;
+    padding:20px 0px 15px;
+}
+
+.p-footer1:hover{
+    color:#000;
+    text-decoration: none;
+}
+.p-footer2:hover{
+    color: #e9c9a0ca; 
+    text-decoration: none;
+}
+
+
+ /*Media Query Section */
+
+ /*
+ @media (max-width: 600px){  /* these conditions are true only if screen size is <= 767px 
+    #title{
+        text-align: center;
+    }
+    h1{
+        font-size: 40px; 
+    }
+    h2{
+        font-size: 22px; 
+    }
+    h3{
+        font-size: 20px; 
+    }
+    h4{
+        font-size: 18px; 
+    }
+    h4{
+        font-size: 18px; 
+    }
+    p{
+        font-size: 15px;
+    }
+    .nav-bar-link{
+        font-size: 15px;
+    }
+    .p-footer1{
+        font-size: 15px;
+    }
+    .p-footer2{
+        font-size: 15px;
+    }
+    .p-footer3{
+        font-size: 14px;
+    }
+    .p-footer4{
+        font-size: 14px;
+    }
+
+}
+*/
+
+/*
+@media (min-width: 601px){  /* if greater than 601..
+    .nav-bar-link{
+        font-size: 18px;
+    }
+    .p-footer1{
+        font-size: 18px;
+    }
+    .p-footer2{
+        font-size: 18px;
+    }
+    .p-footer3{
+        font-size: 16px;
+    }
+    .p-footer4{
+        font-size: 16px;
+    }
+}
+*/
+
+.justify2{
+    text-align: justify;
+
+}
+.shrinkIMG{
+    width:80%;
+}
+
+/* Home Page Responsiveness */ 
+@media (max-width:800px){ 
+    .INSi-enlarge-img{
+        width: 60%;
+    }
+    .justify{
+        text-align: left;
+    }
+    .justify2{
+        text-align: center;
+    }
+}
+
+@media (max-width:600px){ 
+    #title{
+        padding: 12% 0% 12% 0%;
+        text-align: center;
+    }
+    .icons{
+        top: 35%;
+        right: 10px;
+        transform: translateY(-50%);
+        position: fixed;
+        z-index: 100;
+    }
+    .padding{
+        padding: 0% 10%;
+    }
+    .smaller-text{
+        font-size: 15px;
+    }
+    .p-footer4{
+        text-align: center;
+    }
+
+
+
+    /*
+    #about-1{
+        text-align: left;
+    }
+    #about{
+        text-align: left;
+    }
+    */
+
+}
+
+
+@media(max-width:992px){
+    .hidden-mobile2{
+        display: none;
+    }
+}
+
+@media(min-width:993px){
+    .hidden-large-screen2{
+        display: none;
+    }
+}
+
+
+@media(min-width:505px){
+    .hidden-large-screen{
+        display: none;
+    }
+}
+
+@media(min-width:769px){
+    .shrinkIMG{
+        width:30%;
+    }
+}
+
+@media(max-width:504px){
+    #about{
+        padding: 4% 10%;
+    }
+    #about-1{
+        padding: 4% 10% 4% 10%;
+    }
+    .card{
+        padding: 20px 10px;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    
+    #project-title{
+        padding: 0% 8%;
+        text-align: left;
+    }
+    
+    #project-details{
+        padding: 0% 11% 4% 11%;
+        text-align: left;
+    }
+
+    #intro{
+        padding: 10% 10% 6% 10%;
+        text-align: left;
+    }
+
+    #motivation{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #problem{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+        margin: 0px;
+    }
+
+    #our-solution{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #our-process{
+        padding: 0% 10% 4% 10%;
+    }
+
+    #empathize{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #define{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #ideate{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #lofi-prototype{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #lofi-testing{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+    .move-up{
+        position: relative; top: -20px;
+    }
+    #hifi-prototype{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #hifi-testing{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #reflection{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #wishes{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+
+    #other-projects{
+        padding: 0% 10% 4% 10%;
+        text-align: left;
+    }
+    .social-icons{
+        margin: 20px 10px;
+    }
+
+    }
+
+@media (min-width:1250px){ 
+    /*
+    #navigation{
+        padding: 0% 0% 0% 0%;
+    }
+    */
+    #title{
+        text-align: center;
+        position: relative; top:  -20px;
+    }
+
+
+}
+
+
+
+
+
+/* Hover on Mobile Phone
+@media (max-width: 1038px){  /* if less than 1038px...
+    #title{
+        position: relative; top: 0px;
+    }
+}
+
+@media (min-width: 767px){  /* if greater than 767px..
+    #title{
+        position: relative; top: -50px;
+    }
+}
+*/
+
+/*
+@media(hover){
+    .figure {
+        position: relative;
+        /*width: 360px;  can be omitted for a regular non-lazy image 
+        max-width: 60%;
+       
+      }
+      .figure img.image-hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+    .figure:hover img.image-hover {
+        opacity: 1;
+    }
+    
+    .image-hover{
+        background-color: white;
+    }
+
+}
+*/
+
+/* Side Nav Bar */ 
+.icon-spacing{
+    padding: 2px 10px;
+}
+.icon-spacing:hover{
+    text-decoration: none;
+}
+.footer{
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    margin-right: auto;
+    margin-left: auto;
+}
+.black-color{
+    color: #000;
+}
+.black-color:hover{
+    color: #e9c9a0ca;
+}
+
+:root {
+    --space: 2rem;
+    --space-xs: calc(var(--space) / 3);
+    --space-sm: calc(var(--space) / 2);
+    --space-md: calc(var(--space) * 2);
+  
+    --color-primary: lightgray;
+    --radius: 0.125rem;
+  }
+  
+  /* Here are the base styles for the main layout and sticky component */
+  * {
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .article {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: 40%;
+  }
+  
+  .sidebar {
+    --offset: var(--space);
+    flex-grow: 1;
+    /* Changes sidebar width */
+    flex-basis: 175px;
+    align-self: start;
+    position: sticky;
+    top: var(--offset);
+  }
+  
+  .component {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  .component .content {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .sidebar .component {
+    max-height: calc(100vh - var(--offset) * 2);
+  }
+  
+  /*
+   * Other styles
+  **/
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+
+  
+  [hidden] {
+    display: none;
+  }
+  
+  body {
+    margin: 0 auto;
+    padding: 0 var(--space);
+    max-width: 1400px;
+  }
+
+  
+  
+  /* Until flexbox gap is supported in all modern browsers, we use the negative margin trick to create space between the children elements */
+  main {
+    margin-bottom: calc(var(--space-md) * -1);
+    margin-left: calc(var(--space-md) * -1);
+  }
+  
+  main > * {
+    margin-bottom: var(--space-md);
+    margin-left: var(--space-md);
+  }
+  
+  article > * + * {
+    margin-top: var(--space);
+  }
+  
+  .component {
+    position: relative;
+    border: 1px solid var(--color-primary);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
+      0 4px 8px rgba(0, 0, 0, 0.03), 0 8px 16px rgba(0, 0, 0, 0.03),
+      0 16px 32px rgba(0, 0, 0, 0.02), 0 32px 64px rgba(0, 0, 0, 0.02);
+  }
+  
+  .component .header,
+  .component .footer {
+    padding: var(--space-sm);
+    text-align: left;
+  }
+  
+  .component .header {
+    border-bottom: inherit;
+  }
+  
+  .component .footer {
+    /*
+    display: flex;
+    justify-content: space-between; */
+    border-top: inherit;
+  }
+  
+  .component .content {
+    padding: var(--space-sm);
+    /* Changes sidebar height */
+    max-height: 275px;
+    overflow-y: auto;
+    color: var(--color-dark);
+  }
+  
+  
+  .button {
+    appearance: none;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 1rem;
+    color: white;
+    background-color: var(--color-light);
+    border: 1px solid var(--color-mid);
+    cursor: pointer;
+    border-radius: var(--radius);
+    box-shadow: rgba(black, 0.1) 4px 4px;
+  }
+
+  
