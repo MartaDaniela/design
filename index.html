@@ -20,25 +20,26 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 
-  <!-- Poppins Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/78decd1b45.js" crossorigin="anonymous"></script>
-  
+  <!-- Fonts -->  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-  <!-- Font Awesome -->
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+  </style>
+
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/78decd1b45.js" crossorigin="anonymous"></script>
 
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-  <!-- Lottie Animation -->
-  <script src="https://assets4.lottiefiles.com/packages/lf20_dxwu3xu0.json"></script>
   
 
   <!-- CSS -->
@@ -48,84 +49,43 @@
 </head>
 
 <body>
-
-  <!-- for regular navbar <li class="nav-item active"> is how to make it show which page you're on -->
   
-  <!--left aligned nav-bar 
-  <section id="navigation">
-
-  </section>
-  -->
-
-    <!-- Centered navbar 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
-      <a class="navbar-brand-img d-lg-none centered" href="index.html"><img src="images/signature.png" width="180px" height="90px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <a class="navbar-brand d-none d-lg-block centered" href="index.html"><img src="images/signature.png"></a>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="files/Acosta-Resume.pdf" target="_blank">Resume</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  -->
 
   <section id="navigation">    
 
-
-    
-    <!-- Navbar 
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="navbar10">
-              <ul class="navbar-nav nav-fill w-100">
-                  <li class="nav-item">
-                      <a style="color:black" class="nav-link" href="index.html"><u>Home</u></a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color:black" class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color:black" class="nav-link" href="index.html#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color:black" class="nav-link" href="files/Acosta-Resume.pdf" target="_blank">Resume</a>
-                  </li>
-              </ul>
+    <nav class="navbar navbar-expand-lg">
+      <a class="nav-name-logo" href="index.html">
+        <div style="display: flex; align-items: center;">
+          <div>
+            <img src="images/MD-Logo.png" width="50px" height="50px" class="move-up"> 
           </div>
+          <div style="text-align: center; margin-left: 10px;">
+            <p class="nav-name">DANIELA ACOSTA</p>
+            <p class="smaller-body">ux/ product designer</p>
+          </div>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fa-lg"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto" >
+              <li>
+                  <a class="nav-bar-link active" href="index.html">Home</a>
+              </li>
+              <li>
+                  <a class="nav-bar-link" href="#projects">Projects</a>
+              </li>
+              <li>
+                  <a class="nav-bar-link" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="nav-bar-link" href="files/Acosta_Resume.pdf">Resume</a>
+            </li>
+          </ul>
       </div>
     </nav>
-    -->
-
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header navbar-left pull-left">
-          <a href="index.html" class="navbar-brand"><img src="images/vase logo plain.png"></a>   
-        </div>
-
-        <div class="navbar-header navbar-right pull-right">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html" class="nav-bar-link">About</a><a href="files/Acosta-Resume.pdf" target="_blank" class="nav-bar-link">Resume</a></li>
-          </ul>
-        </div>
-    </nav>
-
     
 
   </section>
@@ -134,169 +94,238 @@
 
   <section id="title">
 
-          <!-- Floating contact/social Icons -->
-          <div class="icons">
-            <ul>
-              <!-- <a href="files/Acosta-Resume.pdf" title="Resume" target="_blank"><li><i class="fa-solid fa-file fa-lg"></i></li></a> -->
-              <a href="mailto:mdacosta@ucsd.edu"><li class="email"><i class="fa-solid fa-envelope fa-lg"></i></li></a>
-              <a href="https://www.linkedin.com/in/martadanielaacosta/" target="_blank"><li><i class="fab fa-linkedin fa-xl"></i></li></a>
-              <a href="https://github.com/MartaDaniela?tab=repositories" target="_blank"><li><i class="fa-brands fa-github fa-xl"></i></li></a>
-            </ul>
-        </div>
-
-    <div class="">
-      <div class=""> 
-        <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
-        <div class="figure">
-          <img class="Sirv image-main" src="images/hero-pic1.0.png" loading="eager" data-src="images/hero-pic1.0.png" alt="latina, designing wtih you in mind picture">
-          <img class="Sirv image-hover" data-src="images/hero-pic2.png" alt="ui/ux designer for your needs picture">
-          </a>
-        </div>
-        <br>
-        <br>
-        <br>
-        <p class="padding smaller-text">Cognitive Science (HCI) + Design + Computational Social Science @ UC San Diego 24'</p>
-        <br>
-        <a class="down-arrow" href="#projects"><i class="fa-solid fa-angle-down fa-2xl d-none d-lg-block down-arrow" ></i> </a>
-      </div>
+  <!-- Floating contact/social Icons -->
+  <div class="icons">
+    <ul>
+      <!-- <a href="files/Acosta-Resume.pdf" title="Resume" target="_blank"><li><i class="fa-solid fa-file fa-lg"></i></li></a> -->
+      <a href="mailto:mdacosta@ucsd.edu"><li class="email"><i class="fa-solid fa-envelope fa-lg"></i></li></a>
+      <a href="https://www.linkedin.com/in/martadaniela/" target="_blank"><li><i class="fab fa-linkedin fa-xl"></i></li></a>
+      <a href="https://github.com/MartaDaniela" target="_blank"><li><i class="fa-brands fa-github fa-xl"></i></li></a>
+    </ul>
   </div>
-  </section>
-  <br>
-  <br>
-  <br>
 
-  <!-- Projects -->
+  <!-- Hero Section -->
+
+
+  <div class="row">
+    <div class="col-lg-12 hero">
+
+      <div>
+        <div class="rd-yellow-home"></div>
+        <h1>DESIGNING FOR <i class="fw">YOU.</i></h1>
+        <h5>dynamic ux/ product designer @ ucsd '24</h5>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <a href="#projects">
+    <div class="extraSpace vamosScroll">
+      <div class="centered vamos">
+        <p class="workSans">VAMOS!</p>
+      </div>
+  
+      <div class="centered">
+        <i vamosScroll class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
+  </a>
+
+
+    
+
+  </div>
+
+
+
+  
+  
+
+
+
+
+  </section>
+
   <section id="projects">
 
-    <h2>Projects</h2>
-  
-
-
-    <div class="row">
-      
-      <div class="projects-column col-lg-6">
-        <a class="no-decoration" href="Insi.html">
-          <div class="card h-100 card-effects">
-            <div class="card-body">
-              <div class="ribbon-wrapper">
-                <div class="ribbon-tag">UI/UX Design</div>
-              </div>
-              <h2>Insi</h2>
-              <div>
-                <img class="card-img-top" src="images/INSI-mockup.png" alt="INSI app mockup image" loading="eager">
-              </div>
-              <br>
-              <p class="card-text">helping UCSD students find suitable study spots efficiently</p>
-            </div>
-          </div>
-        </a>
+  <!--
+  <h3>FEATURED PROJECTS</h3>
+ 
+    <div class="row projects-rows">
+      <div class="col-lg-9">
+        <img src="images/jbtsMockup.png" width=100%>
       </div>
-
-      <div class="projects-column col-lg-6">
-        <!-- <a class="no-decoration" href="#"> -->
-        <div class="card WIP h-100">
-          <div class="card-body">
-            <h2>Mindshift on Megafires UX Design Internship 22'</h2>
-            <div class="ribbon-wrapper">
-              <div class="ribbon-tag-grey">Coming Soon!</div>
-            </div>
-            <div>
-              <img class="card-img-top rounded" src="images/MoM-pic.JPG" loading="eager">
-            </div>
-            
-            <br>
-            <!-- <h3>WIFIRE Lab @ San Diego SuperComputer Center</h3> -->
-            <p>an interactive installation and VR simulations to increase the acceptance of prescribed burns</p>
-          </div>
-        </div> 
-      <!--</a> -->
+      <div class="col-lg-3">
+        <p>A redesign of a jewelery in store in La Jolla, California.</p>
       </div>
+    </div> 
+
+
+  <div class="row projects-row">
+    <div class="col-lg-4">
+      <p>A redesign of a jewelery in store in La Jolla, California.</p>
     </div>
+    <div class="col-lg-8">
+      <img src="images/insiMockup.png" width=100%>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <h3>FUN WORKS!</h3>
+  </div>
+
+  <div class="row projects-row">
+    <div class="col-lg-9">
+      <img src="images/modernadasMockup.png" width=80%>
+    </div>
+    <div class="col-lg-3">
+      <p>A redesign of a jewelery in store in La Jolla, California.</p>
+    </div>
+  </div>
+
+  <div class="projects-row">
+    <h3>COMING SOON</h3>
+  </div>
+
 
     
+      <div class="row projects-rows">
+        <div class="col-lg-9">
+          <img src="images/wifireMockup.png" width=100%>
+        </div>
+        <div class="col-lg-3">
+          <p>A redesign of a jewelery in store in La Jolla, California.</p>
+        </div>
+      </div> 
 
-    <h4>Other Fun Stuff!</h4>
-    <div class="row">
-      
-      <div class="projects-column col-lg-6">
-        <a class="no-decoration" href="ModernAdas.html">
-          <div class="card h-100 card-effects">
-            <div class="card-body">
-              <div class="ribbon-wrapper">
-                <div class="ribbon-tag-yellow">Web Design/Dev</div>
-              </div>
-              <h2>Girls Who Code Leadership Academy Giveback Project 22'</h2>
-              <div>
-                <img class="card-img-top rounded" src="images/ModernAdas.png" loading="eager" width="100%" height="100%">
-              </div>
-              <br>
-              <p class="card-text">celebrating an inspiring women and non-binary folks of color in tech</p>
-            </div>
-          </div>
-        </a>
+
+    <div class="row projects-row">
+      <div class="col-lg-4">
+        <p>A redesign of a jewelery in store in La Jolla, California.</p>
       </div>
-
-      <div class="projects-column col-lg-6">
-        <a class="no-decoration" href="MCC.html">
-        <div class="card h-100 card-effects">
-          <div class="card-body">
-            <h2>UCSD's Muir College Council Logo Contest</h2>
-            <div class="ribbon-wrapper">
-              <div class="ribbon-tag-green">Logo Design</div>
-            </div>
-            <div>
-              <img class="card-img-top" src="images/MCC-Logo1.png" loading="eager">
-            </div>
-            <br>
-            <!-- <h3>WIFIRE Lab @ San Diego SuperComputer Center</h3> -->
-            <p class="card-text">redesigning Muir College Council's logo</p>
-          </div>
-        </div> 
-      </a> 
+      <div class="col-lg-8">
+        <img src="images/aneuedigMockup.png" width=100%>
       </div>
     </div>
+
+ 
+
+
+
+
+
+  <section id="works">
+
+    -->
+    <h3 class="projects-rows">FEATURED PROJECTS</h3>
+
+  <a class="project-card1" href="">
+    <div class="row project-card1">
+      <div class="col-lg-6">
+        <img src="images/jbtsMockup.png" width=80%>
+      </div>
+      <div class="col-lg-6">
+        <p class="lighter-text">Website Redesign</p>
+        <h4>JEWELS BY THE SEA <i class="fa-solid fa-arrow-right"></i></h4> 
+      </div>
+    </div>
+  </a>
+
+
+
+    <a class="project-card2" href="">
+      <div class="row project-card2">
+        <div class="col-lg-6 ">
+          <img src="images/insiMockup.png" width=80%>
+        </div>
+        <div class="col-lg-6">
+          <p class="lighter-text">App Design</p> 
+            <h4>INSI <i class="fa-solid fa-arrow-right"></i></h4> 
+        </div>
+      </div>
+  
+    </a>
+
+ 
+    <h3  class="projects-rows">FUN WORKS!</h3>
+
+    <a class="project-card3" href="">
+      <div class="row project-card3">
+        <div class="col-lg-6 ">
+          <img src="images/modernadasMockup.png" width=80%>
+        </div>
+        <div class="col-lg-6">
+          <p class="lighter-text">Website Design & Developement</p> 
+          <h4>GIRLS WHO CODE <i class="fa-solid fa-arrow-right"></i></h4>
+        </div>
+      </div>
+    </a>
+
+
+ 
+    <h3  class="projects-rows">COMING SOON</h3>
+    <div class="row">
+      <div class="col-lg-6 ">
+        <img src="images/wifireMockup.png" width=80% >
+      </div>
+      <div class="col-lg-6">
+        <p class="lighter-text">Interative Solution</p>
+        <h4>SAN DIEGO SUPERCOMPUTER UX INTERNSHIP <!-- <i class="fa-solid fa-arrow-right"></i> --></h4> 
+      </div>
+      
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-6 ">
+        <img src="images/aneuedigMockup.png" width=80% >
+      </div>
+      <div class="col-lg-6">
+        <p class="lighter-text">Personal Start Up</p> 
+        <h4>ANEUE DIGITAL <!-- <i class="fa-solid fa-arrow-right"></i> --></h4>
+      </div>
+    </div>
+     
+
+
+
+
   
 
 
 
-        <!-- Floating contact/social Icons
-        <div class="icons">
-          <ul>
-            <a href="#navigation"><i class="fa-solid fa-circle-up"></i></a> 
-          </ul>
-        </div>
-          -->
+  </section> 
 
+  <!-- CTA -->
+  <section id="cta">
+    <div class="centered">
+      <div class="rd-yellow-home"></div>
+      <p class="centered">My noggin's always running - Let's chat!</p>
+      <a class="decorColor" href="https://www.linkedin.com/in/martadaniela/"><h3>MDACOSTA@UCSD.EDU</h3><iconify-icon icon="ph:arrow-up-right"></iconify-icon></a>
+    </div>
+
+
+    
   </section>
 
+  <footer>
 
-  <footer id="footer" class="text-center text-lg-start">
-      <!-- Section: Page Links & Socials  -->
-      <!-- change to div or non fluid container -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block"> <!-- add 'd-none d-lg-block' classes here if I want to only show up on large screens-->
-          <span><a class="p-footer1" href="#navigation"><img class= "logo-footer" src="images/vase logo plain.png"></a><a class="p-footer1">Designing with <strong class="emph">you</strong> in mind</a></span>
-        </div>
-        <!-- Left -->
-    
-        <!-- Right -->
-        <div>
-          <a class="me-4 p-footer1 extra-space">I'd love to hear from you!</a> <!-- for filled in only envelope just change 'regular' to 'solid' -->
-          <a class="me-4 p-footer2 social-icons" href="mailto:mdacosta@ucsd.edu">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          <a class="me-4 p-footer2 social-icons" href="https://www.linkedin.com/in/martadanielaacosta/" target="_blank">
-            <i class="fab fa-linkedin"></i>  
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-  
-    <p class="p-footer3">This site will do for now<sup>1</sup>... Designed & Coded by Marta Daniela <img class= "logo-footer" src="images/vase logo plain.png"> 2022</p>
-    <p class="p-footer4">1. Meaning I, Marta Daniela, am constantly updating my designs, in my bed, on a mountain top, in class, you name it! If you’re ever bored, contact me and I’ll happily share what's on my mind. This noggin is always running!</p>
-    
-    </footer>
+    <div class="left">
+      <a href="#navigation"><img class= "logo-footer" src="images/MD-logo.png"></a><a>DESIGNING FOR <b><i>YOU.</i></b>
+      <p>Designed and Coded by Daniela, 2023</p>
+    </div>
+    <div class="right">
+      <a href="#projects">Projects • </a>
+      <a href="about.html">About • </a>
+      <a href="files/Acosta_Resume.pdf">Resume • </a>
+      <a href="https://www.linkedin.com/in/martadaniela/">LinkedIn • </a>
+      <a href="mailto:mdacosta@ucsd.edu">Email</a>
+    </div>
+
+
+  </footer>
+
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
