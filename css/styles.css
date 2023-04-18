@@ -372,7 +372,7 @@ p{
 
 
 .icons ul li:hover{
-    color:#fce679;
+    color:#ff96e8; ;
 }
 
 
@@ -481,9 +481,13 @@ p{
     padding: 8% 0 1% 0;
 }
 
+.no-decoration{
+    color:#000;
+}
 
 .no-decoration:hover{
-    text-decoration: none;  
+    text-decoration: none; 
+    color: #ff96e8; 
 }
 
 
