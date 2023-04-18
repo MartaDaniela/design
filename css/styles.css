@@ -469,6 +469,16 @@ p{
     background-color:#ffcaff;
 }
 
+.project-card4:hover{
+    text-decoration: none;
+    background-color:#ffbc78;
+}
+
+.project-card5:hover{
+    text-decoration: none;
+    background-color:#66daf8;
+}
+
 
 .jbts:hover{
     background-color: #B4C9FF;
@@ -715,7 +725,7 @@ main {
 
 
 #about{
-    padding: 4% 10%;
+    padding: 6% 10%;
     text-align: justify;
     
 }
