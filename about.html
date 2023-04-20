@@ -37,6 +37,10 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/78decd1b45.js" crossorigin="anonymous"></script>
 
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -72,13 +76,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto" >
               <li>
-                  <a class="nav-bar-link" href="index.html">Home</a>
-              </li>
-              <li>
                   <a class="nav-bar-link" href="index.html#projects">Projects</a>
               </li>
               <li>
                   <a class="nav-bar-link active" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="nav-bar-link" href="gallery.html">Gallery</a>
               </li>
               <li>
                 <a class="nav-bar-link" href="files/Acosta_Resume.pdf">Resume</a>
@@ -89,15 +93,16 @@
     
 
 
-          <!-- Floating contact/social Icons -->
-          <div class="icons">
-            <ul>
-              <!-- <a href="files/Acosta-Resume.pdf" title="Resume" target="_blank"><li><i class="fa-solid fa-file fa-lg"></i></li></a> -->
-              <a href="mailto:mdacosta@ucsd.edu"><li class="email"><i class="fa-solid fa-envelope fa-lg"></i></li></a>
-              <a href="https://www.linkedin.com/in/martadanielaacosta/" target="_blank"><li><i class="fab fa-linkedin fa-xl"></i></li></a>
-              <a href="https://github.com/MartaDaniela?tab=repositories" target="_blank"><li><i class="fa-brands fa-github fa-xl"></i></li></a>
-            </ul>
-          </div>
+    <!-- Floating contact/social Icons -->
+    <div class="icons">
+      <ul>
+        <!-- <a href="files/Acosta-Resume.pdf" title="Resume" target="_blank"><li><i class="fa-solid fa-file fa-lg"></i></li></a> -->
+        <a href="mailto:mdacosta@ucsd.edu"><li class="email"><i class="fa-solid fa-envelope fa-lg"></i></li></a>
+        <a href="https://www.linkedin.com/in/martadanielaacosta/" target="_blank"><li><i class="fab fa-linkedin fa-xl"></i></li></a>
+        <!-- <a href="https://github.com/MartaDaniela?tab=repositories" target="_blank"><li><i class="fa-brands fa-github fa-xl"></i></li></a>-->
+      </ul>
+    </div>
+
     </section>
 
 
@@ -124,10 +129,12 @@
       </div>
 
 
-      <a href="#about-intro">
+      <a href="#about">
         <div class="vamosScroll d-none d-lg-block">      
           <div class="right">
-            <i vamosScroll class="fa-solid fa-arrow-down"></i>
+            <span class="material-symbols-sharp">
+              arrow_downward
+            </span>
           </div>
         </div>
       </a>
@@ -143,7 +150,50 @@
       </div>
     </section>
 
+    <section id="about">
+      <h3>MY BRAND: EXPLAINED</h3>
+      <br>
+      <div class="row">
+        <div class="col-lg-7">
+          <div>
+            <h4>WHY THE BILLBOARD?</h4>
+            <br>
+            <p>Why not! I thought it was funky and also saw it as a great opportunity to practice my visual design skills. I plan on continuosly changing the design throughout the year. Check out my <a class="no-decoration" href="fun"><u><b>'Fun' page</b></u></a> to see past designs, and feel free to <a class="no-decoration" href="mailto:mdacosta@ucsd.edu"><u><b>send</b></u></a> me ideas!</p>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+          <h4>TYPOGRAPHY</h4>
+          <br>
+          <p>HEADERS & BODY</p>
+          <hr>
+          <h4>Helvetica Neue</h4>
+          <p>modern / clean</p>
+        </div>
+      </div>
 
+      <div class="row">
+      <div class="col-lg-7">
+        <div>
+          <h4>LOGO & SLOGAN</h4>
+          <br>
+          <div style="display: flex; align-items: center;">
+            <img src="images/MD-logo.png" style="width: 100px; margin-right: 50px;">
+            <p>My logo combines the 'M' from my first name, Marta, (plot twist!) and the 'D' from my middle name, Daniela.*It also kind of looks like a duck if you tilt your head to the left.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <br>
+        <br>
+        <h4>"DESIGNING FOR <i><b>YOU.</b></i>"</h4>
+        <p>My slogan is a reflection of my commitment to design and advocate for the unique needs of everyone I design for.</p>
+      </div>
+      
+      </div>
+      
+    </section>
+<!--
     <section id="about">
       <h3>MY BRAND: EXPLAINED</h3>
       <br>
@@ -211,7 +261,7 @@
         </div>
       </div>
       
-    -->
+
         <div class="row">
         <div class="col-lg-3">
           <div>
@@ -226,7 +276,7 @@
           <p>My slogan is a reflection of my commitment to design and advocate for the unique needs of everyone I design for.</p>
         </div>
       </div>
-
+    -->
 
     </section>
 
@@ -285,7 +335,7 @@
       <a href="#navigation"><img class="logo-footer" src="images/MD-logoW.png"></a><a class="white-textp">DESIGNING FOR <b><i>YOU.</i></b></a>
     </div>
     <div class="right">
-      <p class="footer-padding"><a class="white-text" href="#projects">Projects</a></p> <p class="footer-padding"><a  class="white-text" href="about.html">About</a></p> <p class="footer-padding"><a  class="white-text" href="files/Acosta_Resume.pdf">Resume</a></p> <p class="footer-padding"><a  class="white-text" href="https://www.linkedin.com/in/martadaniela/">LinkedIn</a></p> <p class="footer-padding"><a  class="white-text" href="mailto:mdacosta@ucsd.edu">Email</a></p><p class="footer-padding white-text">✦</p>
+      <p class="footer-padding"><a class="white-text" href="#projects">Projects</a></p> <p class="footer-padding"><a  class="white-text" href="about.html">About</a></p> <p class="footer-padding"><a  class="white-text" href="gallery.html">Gallery</a></p> <p class="footer-padding"><a  class="white-text" href="files/Acosta_Resume.pdf">Resume</a></p> <p class="footer-padding"><a class="white-text" href="https://www.linkedin.com/in/martadaniela/">LinkedIn</a></p> <p class="footer-padding"> <p class="footer-padding white-text">✦</p>
     </div>
   </div>
   <p class="smaller-bodyW">Designed and Coded by Daniela, 2023</p>

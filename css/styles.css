@@ -186,8 +186,9 @@ p{
     transform: scale(1.2);
 }
 
-
-
+.material-symbols-sharp{
+    margin-top: -10px;
+}
 .vamosScroll{
     color: #000;
 }
@@ -390,7 +391,14 @@ p{
 /* Hero Section */
 #title{
     /* change top padding to 3% when have 4 link navbar */
-    padding: 5% 10% 10% 10%;
+    padding: 5% 10% 15% 10%;
+    text-align: center;
+    position: relative; top: 0px;
+}
+
+#title-gallery{
+    /* change top padding to 3% when have 4 link navbar */
+    padding: 5% 10% 0% 10%;
     text-align: center;
     position: relative; top: 0px;
 }
@@ -439,7 +447,47 @@ p{
     text-align: left;
     background-color: #fff;
     position: relative; top: -60px;
-    
+}
+
+.hover-blue {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-blue::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c9f9ff60;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .hover-blue:hover::after {
+    opacity: 1;
+  }
+  
+  .project-cards img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.project-cards:hover{
+    opacity: 70%;
+    background-color:#c9f9ff50;
+}
+
+.inactive:hover{
+    opacity:100%
+}
+
+.blackH:hover{
+    color:#000;
 }
 
 .project-cards{
@@ -565,6 +613,12 @@ p{
     border: #A4F1FB; 
 }
 
+/* Billboards Page */
+#billboards{
+    padding: 0% 10% 12% 10%;
+    text-align: left;
+    background-color: #fff;
+}
 
  
 
@@ -805,6 +859,15 @@ main {
     padding: 4% 10% 6% 10%;
     text-align: left;
     border-radius: 20px 20px 0 0;
+}
+
+.about-me-pics{
+    border-radius: 20px;
+}
+
+
+.about-me-pics:hover{
+    transform: rotate(3deg);
 }
 
 
