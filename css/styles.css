@@ -10,12 +10,12 @@ body{
 
 /* Typography */
 h1{
-    font-family: 'Work Sans';
+    font-family: 'Helvetica Neue';
     font-size: 40px; /* 3rem = 3 times the root em size */
     /* line-height:1.5; */
     color:#000;
-    font-weight: 500;
-    letter-spacing: 0.05em;
+    font-weight: 400;
+    letter-spacing: 4%
 }
 
 .fw{
@@ -23,31 +23,22 @@ h1{
 }
 
 h2{
-    font-family: 'Work Sans';
-    font-size: 80px;
-    font-weight: 500;
+    font-family: 'Helvetica Neue';
+    font-size: 32px;
+    font-weight: 400;
     color: #000;
-    letter-spacing: 0.05em;
+    letter-spacing: 4%;
     padding: 0  0 10px 0;
     text-align: left;
 }
-.header-two-light{
-    font-weight: 300;
-    font-size: 45px;
-    line-height:1.5;
-    color:#000;
-    letter-spacing: 0.05em;
-    padding: 0  0 10px 0;
-
-}
 
 h3{
-    font-family: 'Work Sans';
-    font-weight: 500;
+    font-family:'Helvetica Neue';
+    font-weight: 400;
     padding: 0  0 15px 0;
-    font-size: 30px;
-    letter-spacing: 0.05em;
-    color: rgb(0, 0, 0);
+    font-size: 24px;
+    letter-spacing: 0.07em;
+    color: #000;
 }
 
 .lessLH{
@@ -55,39 +46,39 @@ h3{
 }
 
 h4{
-    font-family: 'Work Sans';
-    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     text-align: left;
     color: #000;
 }
 
 h5{
     flex-grow: 0;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     font-size: 20px;
-    font-weight: normal, 500;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.05em;
-    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-align: left;
     color: #000;
 }
 
 
 p{
     flex-grow: 0;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     font-size: 18px;
-    font-weight: normal, 500;
+    font-weight:400;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.05em;
+    line-height: 0px;
+    letter-spacing: 4%;
     text-align: left;
     color: #000;
 }
@@ -98,15 +89,28 @@ p{
 
 .smaller-body{
     flex-grow: 0;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     font-size: 16px;
-    font-weight: normal, 500;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 0px;
     letter-spacing: 0.8px;
     text-align: left;
     color: #000;
+}
+.smaller-bodyW{
+    flex-grow: 0;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: normal, 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #fff;
+    padding: 5px 0 0 0;
 }
 
 .move-up{
@@ -119,19 +123,20 @@ p{
 
 .nav-name{
     flex-grow: 0;
-    font-family: 'Work Sans';
+    font-family:'Helvetica Neue';
     font-size: 18px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 12px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     text-align: left;
     color: #000; 
 }
 
 .lighter-text{
     color: rgba(0, 0, 0, 0.5);
+    letter-spacing:  0.07em;
 }
 
 .insiGrey-text{
@@ -143,11 +148,11 @@ p{
 }
 
 .insiGrey{
-    font-family: 'Poppins','Avenir';
+    font-family:'Helvetica Neue';
     font-size: 18px;
     color: #454B52;
     letter-spacing: 0.0125em;
-    font-weight: normal, 500;
+    font-weight: 400;
 }
 
 /* Hero Section */
@@ -291,11 +296,11 @@ p{
 .nav-bar-link{
     padding:0 20px 0px 20px;
     color:#000;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     font-size: 20px;
     letter-spacing: 0.05em;
     position: relative; top: 5px;
-    font-weight: normal, 500;
+    font-weight: 400;
 }
 
 /*circle gradient hover
@@ -433,6 +438,64 @@ p{
     position: relative; top: -60px;
     
 }
+
+.project-cards{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.project-name{
+    padding: 2% 0 0 0;
+}
+
+.projects-rows{
+    padding: 0% 0 8% 0;
+}
+
+.material-symbols-outlined{
+    font-size: 35px;
+
+}
+
+.projects-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.highlight{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.highlight::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 50%;
+    background-color: yellow; /* change to desired color */
+    z-index: -1;
+}
+
+
+.chip1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 6px;
+    text-align: center;
+    width: 156px;
+    height: 36px;
+    display: table-cell; /* added */
+    vertical-align: middle; /* added */
+  }
+
+
+/*
 .project-card:hover{
     text-decoration: none;
 }
@@ -485,11 +548,10 @@ p{
     border-radius: 10px;
     padding: 68px 100px 68px 100px;
 }
+*/
 
 
-.projects-rows{
-    padding: 8% 0 1% 0;
-}
+
 
 .no-decoration{
     color:#000;
@@ -741,31 +803,21 @@ main {
     text-align: left;
     border-radius: 20px 20px 0 0;
 }
-.white-text{
-    color:#ffffff;
-}
 
-/* Footer Section*/
 
-.footer-line{
-    padding: 0% 10% 0% 10%;
-    background-color: #000;
-}
 
-.footer-line1{
-    padding: 0% 10% 0% 10%;
-    background-color: #fff;
-}
+
+/* Footer Section
 
 footer {
-    /* padding: 4% 6% 2% 6%;*/
+    /* padding: 4% 6% 2% 6%;
     padding: 1% 10% 2% 10%;
     background-color: #000;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: normal, 500;
+    font-weight: normal;
   }
   
   .left {
@@ -774,14 +826,14 @@ footer {
 
   .left a{
     text-align: left;
-    font-family: 'Work Sans';
+    font-family: 'Helvetica Neue';
     font-weight: 500;
     font-size: 20px;
   }
 
   .left p{
     text-align: left;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     font-size: 16px;
     font-weight: normal, 500;
   }
@@ -792,7 +844,7 @@ footer {
   
   .right a {
     display: inline-block;
-    font-family: 'Poppins','Avenir';
+    font-family: 'Helvetica Neue';
     color: #ffffff;
     font-weight: normal, 500;
     font-size: 16px;
@@ -810,8 +862,115 @@ footer {
   .decorColor:hover{
     color: #000;
   }
+  */
+
+  footer {
+    background-color: #000;
+    padding: 4% 10% 2% 10%;
+    font-family: 'Helvetica Neue';
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -20px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .left {
+    flex: 1 0 auto;
+    text-align: left;
+  }
+  
+  .left p{
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .right p{
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  
+  .right {
+    flex: 1 0 auto;
+    text-align: right;
+  }
+  
+  .white-textp{
+    flex-grow: 0;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 4%;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .white-textp:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .white-texth2{
+    font-family: 'Helvetica Neue';
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 4%;
+    padding: 0  0 10px 0;
+    text-align: left;
+  }
+  
+  .footer-padding{
+    padding: 0 10px 0 10px;
+    color:#fff;
+  }
+  
+  .white-text{
+    color:#fff;
+  }
+  
+  .white-text:hover{
+    color:#fff;
+  }
+  .decorColor:hover{
+    color: #fff;
+  }
+  .logo-footer {
+    width: 20px;
+    padding: 0px 5px 5px 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0 0 0;
+    }
+  
+    .left, .right {
+      text-align: center;
+    }
+  }
 
 
+  
 
   
 
@@ -933,7 +1092,7 @@ footer {
 
     .nav-name{
         flex-grow: 0;
-        font-family: 'Work Sans';
+        font-family: 'Helvetica Neue';
         font-size: 15px;
         font-weight: 500;
         font-stretch: normal;
