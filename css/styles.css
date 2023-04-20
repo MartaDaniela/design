@@ -77,7 +77,6 @@ p{
     font-weight:400;
     font-stretch: normal;
     font-style: normal;
-    line-height: 0px;
     letter-spacing: 4%;
     text-align: left;
     color: #000;
@@ -377,7 +376,7 @@ p{
 
 
 .icons ul li:hover{
-    color:#ff96e8; ;
+    color:#A4F1FB; ;
 }
 
 
@@ -559,7 +558,7 @@ p{
 
 .no-decoration:hover{
     text-decoration: none; 
-    color: #ff96e8; 
+    border: #A4F1FB; 
 }
 
 
