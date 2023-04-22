@@ -63,6 +63,7 @@ h5{
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
+    line-height: normal;
     letter-spacing: 0.07em;
     text-align: left;
     color: #000;
@@ -97,6 +98,20 @@ p{
     text-align: left;
     color: #000;
 }
+
+.smaller-bodyS{
+    flex-grow: 0;
+    font-family: 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #000;
+}
+
 .smaller-bodyW{
     flex-grow: 0;
     font-family: 'Helvetica Neue';
@@ -134,7 +149,6 @@ p{
 
 .lighter-text{
     color: rgba(0, 0, 0, 0.5);
-    letter-spacing:  0.07em;
 }
 
 .insiGrey-text{
@@ -164,7 +178,7 @@ p{
     justify-content: center;
   }
 .lessSpace{
-    margin-top: -110px;
+    margin-top: -80px;
 }
 
 .vamos{
@@ -391,7 +405,7 @@ p{
 /* Hero Section */
 #title{
     /* change top padding to 3% when have 4 link navbar */
-    padding: 5% 10% 15% 10%;
+    padding: 4% 10% 15% 10%;
     text-align: center;
     position: relative; top: 0px;
 }
@@ -839,6 +853,11 @@ main {
   }
 
 
+.gallery-pics{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
 
 /* About Page */
 
@@ -847,7 +866,16 @@ main {
 }
 
 #about{
-    padding: 6% 10%;
+    padding: 7% 12%;
+}
+
+#about-end{
+    padding: 7% 12% 11% 12%;
+}
+
+
+.about-rows{
+    padding: 0 0 3% 0;
 }
 
 
@@ -863,6 +891,14 @@ main {
 
 .about-me-pics{
     border-radius: 20px;
+    border: 1px solid #000;
+
+}
+
+.three-words{
+    border-radius: 20px;
+    border: 1px solid #000;
+
 }
 
 
