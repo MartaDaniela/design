@@ -1,16 +1,6 @@
 
-/* Story Cards Section*/
 
-#story-cards{
-    padding: 3% 15% 3% 15%;
-    text-align: center;
-    background-color: transparent;
-    width: 100%;  
-    border: none;
-
-}
-
-
+/* Gallery Section*/
 .card{
     border-radius: 5px;
     border: none;
@@ -21,61 +11,66 @@
 
 .card-header{
     background-color: transparent ;
-    padding: 1rem 1.25rem;
-    color: #fff;
 }
 
-
-.card-title{
-    color:#000000;
-    padding: 10px 20px;
-}
-.card-img{
-    border-radius:50%;
-    padding: 0px 15px;
-}
 
 .scroll {
-    max-height: 425px;
-    overflow-y: auto;
+    /*max-height: 425px;
     border-radius: 5px;
+    */
+    overflow-y: auto;
+    
 }
 
 .content {
-    padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: transparent;
   }
 
-
-.card-text{
-    text-align: left;
-    padding: 0px 20px;
+/* changes spacing around gallery links */
+.gallery-link{
+    padding: 0 0 20px 0;
 }
 
-.active {
-    background-color: #fff;
+  .active {
+    background-color: #F1F0F0;
+    border-radius: 10px;
+
+}
+
+/* changes gallery links appearance */ 
+  .gl{
+    flex-grow: 0;
+    font-family: 'Helvetica Neue';
+    font-size: 18px;
+    font-weight:400;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    line-height: 0px;
+    text-align: left;
+    color: #000;
+    padding: 10px 20px;
   }
 
-  .nav-pills .nav-link.active-g{
-    background-color: transparent;
-    color:#fff;
-}
-
-.nav-tabs .nav-link {
-    border: 0px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    
-}
-  
-a {
-    color: white;
+  .gl:hover{
     text-decoration: none;
-    background-color: transparent;
+    color: #000;
+    padding: 10px 20px;
+    background-color: #F1F0F0;
+    border-radius: 10px;
+    
+  }
 
-}
+
+
+
+
+
+
+
+  
 
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -302,7 +297,7 @@ p{
     justify-content: center;
   }
 .lessSpace{
-    margin-top: -80px;
+    margin-top: -110px;
 }
 
 .vamos{
@@ -536,9 +531,8 @@ p{
 
 #title-gallery{
     /* change top padding to 3% when have 4 link navbar */
-    padding: 5% 10% 0% 10%;
+    padding: 5% 10% 4% 10%;
     text-align: center;
-    position: relative; top: 0px;
 }
 
 
@@ -752,8 +746,8 @@ p{
 }
 
 /* Billboards Page */
-#billboards{
-    padding: 0% 10% 12% 10%;
+#gallery{
+    padding: 2% 10% 15% 10%;
     text-align: left;
     background-color: #fff;
 }
