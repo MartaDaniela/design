@@ -23,7 +23,7 @@
 }
 
 .content {
-    display: none;
+    /*display: none;*/
     overflow: hidden;
     background-color: transparent;
   }
