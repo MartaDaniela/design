@@ -739,11 +739,14 @@ p{
 
 .no-decoration{
     color:#000;
+    font-weight: 600;
+    text-decoration: underline; 
 }
 
 .no-decoration:hover{
-    text-decoration: none; 
-    border: #A4F1FB; 
+    color:#00000056;
+    font-weight: 600;
+    text-decoration: underline; 
 }
 
 /* Billboards Page */
