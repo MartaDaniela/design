@@ -1,5 +1,3 @@
-
-
 /* Gallery Section*/
 .card{
     border-radius: 5px;
@@ -515,7 +513,7 @@ p{
 
 
 .icons ul li:hover{
-    color:#A4F1FB; ;
+    color:#00000056;; ;
 }
 
 
@@ -531,36 +529,10 @@ p{
 }
 
 #title-gallery{
-    /* change top padding to 3% when have 4 link navbar */
     padding: 5% 10% 4% 10%;
     text-align: center;
 }
 
-
-/*  Rollover on Hover Images  */
-.figure {
-    position: relative;
-    /*width: 360px;  can be omitted for a regular non-lazy image */
-    max-width: 60%;
-   
-  }
-  .figure img.image-hover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity .2s;
-}
-.figure:hover img.image-hover {
-    opacity: 1;
-}
-
-.image-hover{
-    background-color: white;
-}
 
 .down-arrow{
     text-decoration: none;
@@ -571,6 +543,9 @@ p{
     text-decoration: none;
     color: #e9c9a0ca;
 }
+
+
+
 
 
 
@@ -603,12 +578,13 @@ p{
   .hover-blue:hover::after {
     opacity: 1;
   }
-  
+/*
   .project-cards img {
     display: block;
     max-width: 100%;
     height: auto;
   }
+  */
 
 .project-cards:hover{
     opacity: 70%;
@@ -737,13 +713,13 @@ p{
 
 
 
-.no-decoration{
+.p-decoration{
     color:#000;
     font-weight: 600;
     text-decoration: underline; 
 }
 
-.no-decoration:hover{
+.p-decoration:hover{
     color:#00000056;
     font-weight: 600;
     text-decoration: underline; 
@@ -984,15 +960,17 @@ main {
 /* About Page */
 
 #about-intro{
-    padding: 5% 12% 6% 12%;
+    /*padding: 9% 10% 12% 10%;*/
+    /*padding: 4% 10% 15% 10%;*/
+    padding: 7% 10% 7% 10%;
 }
 
 #about{
-    padding: 7% 12%;
+    padding: 7% 10%;
 }
 
 #about-end{
-    padding: 7% 12% 11% 12%;
+    padding: 7% 10% 11% 10%;
 }
 
 
