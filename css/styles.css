@@ -488,7 +488,7 @@ p{
 /* Hero Section */
 #title{
     /* change top padding to 3% when have 4 link navbar */
-    padding: 4% 10% 15% 10%;
+    padding: 3% 10% 15% 10%;
     text-align: center;
     position: relative; top: 0px;
 }
