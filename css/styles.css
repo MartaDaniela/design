@@ -72,7 +72,7 @@
     left: 0;
     top: 0;
     width: 6px;
-    height: 100%;
+    height: 110%;
     background-color: #2D3559;
     margin-right: 5px;
     
@@ -170,7 +170,7 @@ h3{
     font-weight: 400;
     padding: 0  0 15px 0;
     font-size: 24px;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
     color: #000;
 }
 
@@ -185,7 +185,7 @@ h4{
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
     text-align: left;
     color: #000;
 }
@@ -406,7 +406,7 @@ p{
 }
 
 .more-space{
-    line-height: 140%;
+    line-height: 120%;
 
 }
 
@@ -718,13 +718,7 @@ p{
 }
 
  
-
-
-
-
-/* INSI Page */
-
-/* INSI page sections */
+/* Case Study Sections */
 #project-title{
     padding: 3% 15% 0% 15%;
     text-align: left;
@@ -740,19 +734,6 @@ p{
     padding: 3% 15% 5% 15%;
     text-align: left;
 }
-
-
-
-#challenge{
-    padding: 7% 15%;
-    text-align: left;
-}
-
-#outcomes{
-    padding: 7% 15%;
-    text-align: left;
-}
-
 #overview{
     padding: 7% 15% 7% 15%;
     text-align: left;
@@ -762,83 +743,98 @@ p{
     text-align: left;
 }
 
-#motivation{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
-
-
-
-#our-solution{
+#goal{
     padding: 7% 15%;
     text-align: left;
 }
+
+#outcomes{
+    padding: 7% 15%;
+    text-align: left;
+}
+#reflection{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+
+
+#other-projects{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+
+
+/* JBTS Page Sections */
+
+#redesign{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#our-process{
+    padding: 7% 15%;
+    text-align: left;
+}
+#user-research{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#ideate{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#dgc{
+    padding:7% 15%;
+    text-align: left;
+}
+
+#site-arch{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#wireframing{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#branding{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+#complete-redesign{
+    padding: 7% 15%;
+    text-align: left;
+}
+
+
+
+
+
+/* INSI Page */
+
+
 .bottom-padding{
     padding: 5% 0% 10% 0%;
 }
 .side-padding{
     padding: 0% 10% 0% 10%;
 }
-
-#our-process{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
-
-#empathize{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
-
-#define{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
-
-#ideate{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
 .side-padding2{
-    padding: 0% 5% 0% 2%;
+    padding: 7% 15%;
 }
 
-#lofi-prototype{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
 
-#lofi-testing{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
 .move-up{
     position: relative; top: -20px;
 }
-#hifi-prototype{
-    padding: 0% 2% 10% 11%;
-    text-align: left;
-}
 
-#hifi-testing{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
 
-#reflection{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
-
-#wishes{
-    padding: 0% 2% 6% 12%;
-    text-align: left;
-}
-
-#other-projects{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-}
 .obj-vertical-space{
     padding: 0% 0% 6% 0%;
 }
@@ -851,6 +847,7 @@ p{
 .user-test-imgs{
     border-radius: 30px;
 }
+
 
 /* Testimonials Section */
 .carousel-item{
