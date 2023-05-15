@@ -121,9 +121,7 @@ html {
     scroll-behavior: smooth;
 } 
 
-body{
-    padding: 15px;
-}
+
 
 /* Typography */
 h1{
@@ -389,6 +387,10 @@ p{
     padding: 3% 2%;
 }
 
+.more-space{
+    line-height: 140%;
+
+}
 
 
 .navbar{
@@ -706,43 +708,49 @@ p{
 
 /* INSI page sections */
 #project-title{
-    padding: 3% 10% 0% 10%;
+    padding: 3% 15% 0% 15%;
     text-align: left;
 }
 
 #project-image{
-    padding: 1% 10% 0% 10%;
+    padding: 0;
     text-align: center;
+    margin: 0 auto;
 }
 
 #project-details{
-    padding: 2% 10% 8% 10%;
+    padding: 3% 15% 5% 15%;
     text-align: left;
 }
 
-#intro{
-    padding: 0% 10% 10% 10%;
+#goal{
+    padding: 7% 2% 10% 18%;
+    text-align: left;
+}
+
+#outcomes{
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #overview{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 15% 7% 15%;
     text-align: left;
 }
 
 #motivation{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #problem{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
     margin: 0px;
 }
 
 #our-solution{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 .bottom-padding{
@@ -753,22 +761,22 @@ p{
 }
 
 #our-process{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #empathize{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #define{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #ideate{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 .side-padding2{
@@ -776,12 +784,12 @@ p{
 }
 
 #lofi-prototype{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #lofi-testing{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 .move-up{
@@ -793,12 +801,12 @@ p{
 }
 
 #hifi-testing{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
 #reflection{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 
@@ -808,7 +816,7 @@ p{
 }
 
 #other-projects{
-    padding: 0% 2% 10% 12%;
+    padding: 7% 2% 10% 18%;
     text-align: left;
 }
 .obj-vertical-space{
@@ -1584,11 +1592,20 @@ footer {
     display: none;
   }
   
-  body {
+
+
+  /* body:not(#project-image) {
     margin: 0 auto;
     padding: 0 var(--space);
-    max-width: 1400px;
-  }
+  } */
+
+   body{
+    margin: 0 auto;
+    padding: 0;
+    /* max-width: 1400px; */
+  } 
+
+
 
   
   
