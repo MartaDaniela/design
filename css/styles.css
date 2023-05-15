@@ -62,8 +62,25 @@
     
   }
 
-
-
+  .line-container {
+    position: relative;
+  }
+  
+  .line-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #2D3559;
+    margin-right: 5px;
+    
+  }
+  
+  .padding {
+    padding-left: 3%; /* Adjust the value for more space */
+  }
 
 
 
@@ -145,6 +162,7 @@ h2{
     letter-spacing: 4%;
     padding: 0  0 10px 0;
     text-align: left;
+    margin-bottom: 2.5%;
 }
 
 h3{
@@ -723,17 +741,23 @@ p{
     text-align: left;
 }
 
-#goal{
-    padding: 7% 2% 10% 18%;
+
+
+#challenge{
+    padding: 7% 15%;
     text-align: left;
 }
 
 #outcomes{
-    padding: 7% 2% 10% 18%;
+    padding: 7% 15%;
     text-align: left;
 }
 
 #overview{
+    padding: 7% 15% 7% 15%;
+    text-align: left;
+}
+#problem{
     padding: 7% 15% 7% 15%;
     text-align: left;
 }
@@ -743,14 +767,10 @@ p{
     text-align: left;
 }
 
-#problem{
-    padding: 7% 2% 10% 18%;
-    text-align: left;
-    margin: 0px;
-}
+
 
 #our-solution{
-    padding: 7% 2% 10% 18%;
+    padding: 7% 15%;
     text-align: left;
 }
 .bottom-padding{
@@ -886,6 +906,7 @@ p{
 main {
     margin-bottom: calc(var(--space-md) * -1);
     margin-left: calc(var(--space-md) * -1);
+    margin: 0 var(--space-xs);
   }
   
   main > * {
@@ -924,7 +945,7 @@ main {
   
   .component .content {
     padding: var(--space-sm);
-    max-height: 500px;
+    max-height: 450px;
     overflow-y: auto;
     color: var(--color-dark);
   }
@@ -986,78 +1007,22 @@ main {
 /* cta */
 
 #cta{
-    /* padding: 8% 6% 8% 6%; 
-    position: relative; top: 0px;
-    text-align: center;*/
     background-color: #000;
     padding: 4% 10% 6% 10%;
     text-align: left;
     border-radius: 20px 20px 0 0;
+    margin: 0 var(--space);
 }
 
 
 
-/* Footer Section
-
-footer {
-    /* padding: 4% 6% 2% 6%;
-    padding: 1% 10% 2% 10%;
-    background-color: #000;
-    font-family: 'Helvetica Neue';
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: normal;
-  }
-  
-  .left {
-    text-align: left;
-  }
-
-  .left a{
-    text-align: left;
-    font-family: 'Helvetica Neue';
-    font-weight: 500;
-    font-size: 20px;
-  }
-
-  .left p{
-    text-align: left;
-    font-family: 'Helvetica Neue';
-    font-size: 16px;
-    font-weight: normal, 500;
-  }
-  
-  .right {
-    text-align: right;
-  }
-  
-  .right a {
-    display: inline-block;
-    font-family: 'Helvetica Neue';
-    color: #ffffff;
-    font-weight: normal, 500;
-    font-size: 16px;
-    letter-spacing: 0.05em;
-  }
-  
-  .right a:hover {
-    color: #000;
-  }
-
-  .logo-footer {
-    width: 20px;
-    padding: 4px 0 10px 0;
-  }
-  .decorColor:hover{
-    color: #000;
-  }
-  */
+/* Footer Section */
 
   footer {
     background-color: #000;
     padding: 4% 10% 3% 10%;
     font-family: 'Helvetica Neue';
+    margin: 0 var(--space);
   }
   
   hr {
@@ -1594,16 +1559,16 @@ footer {
   
 
 
-  /* body:not(#project-image) {
+/* body:not(#project-image) {
     margin: 0 auto;
-    padding: 0 var(--space);
-  } */
-
-   body{
+    padding: 0 var(--space-sm);
+  } 
+*/ 
+  /* body{
     margin: 0 auto;
     padding: 0;
-    /* max-width: 1400px; */
-  } 
+    /* max-width: 1400px; 
+  } */
 
 
 
@@ -1611,8 +1576,8 @@ footer {
   
   /* Until flexbox gap is supported in all modern browsers, we use the negative margin trick to create space between the children elements */
   main {
-    margin-bottom: calc(var(--space-md) * -1);
-    margin-left: calc(var(--space-md) * -1);
+    /* margin-bottom: calc(var(--space-md) * -1);
+    margin-left: calc(var(--space-md) * -1); */
   }
   
   main > * {
@@ -1626,10 +1591,12 @@ footer {
   
   .component {
     position: relative;
-    border: 1px solid var(--color-primary);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
+    border-radius: 20px;
+    /* border: 1px solid var(--color-primary); */
+    /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
       0 4px 8px rgba(0, 0, 0, 0.03), 0 8px 16px rgba(0, 0, 0, 0.03),
-      0 16px 32px rgba(0, 0, 0, 0.02), 0 32px 64px rgba(0, 0, 0, 0.02);
+      0 16px 32px rgba(0, 0, 0, 0.02), 0 32px 64px rgba(0, 0, 0, 0.02);*/
+   
   }
   
   .component .header,
