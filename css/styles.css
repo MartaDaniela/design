@@ -740,14 +740,14 @@ p{
     text-align: left;
 }
 #reflection{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 
 
 #other-projects{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
@@ -1552,13 +1552,34 @@ main {
 
   .phone-container {
     position: relative;
-    width: 250px; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
-    border: 10px solid black; /* Optional: Add a border to simulate the phone frame */
+    width: 320px; /* Adjust the width as needed */
+    height: 514px; /* Adjust the height as needed */
+    border: 2px solid black; /* Optional: Add a border to simulate the phone frame */
     overflow: hidden; /* Optional: Hide any overflowing content */
-    border-radius: 45px;
-    
-  }
+    border-radius: 40px;
+    box-shadow:
+    0px 2px 6px rgba(0, 0, 0, 0.3),
+    0px 0px 0px 8px #000000, /* Update the border color to black */
+    0px 0px 0px 10px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 0px 5px rgba(255, 255, 255, 0.5),
+    inset 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
+}
+
+.phone-container:before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  background-color: #111111; /* Set the background color to a darker shade of black */
+  transform: rotate(-45deg);
+  z-index: -1;
+  box-shadow:
+    0px 2px 6px rgba(0, 0, 0, 0.3),
+    inset 0px 0px 0px 8px rgba(255, 255, 255, 0.3),
+    inset 0px 0px 0px 12px rgba(255, 255, 255, 0.2);
+}
   
   .phone-container iframe {
     position: absolute;
