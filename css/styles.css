@@ -190,19 +190,6 @@ h4{
     color: #000;
 }
 
-h5{
-    flex-grow: 0;
-    font-family: 'Helvetica Neue';
-    font-size: 20px;
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.07em;
-    text-align: left;
-    color: #000;
-}
-
 
 p{
     flex-grow: 0;
@@ -211,7 +198,7 @@ p{
     font-weight:400;
     font-stretch: normal;
     font-style: normal;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.7px;
     text-align: left;
     color: #000;
 }
@@ -720,7 +707,7 @@ p{
  
 /* Case Study Sections */
 #project-title{
-    padding: 3% 15% 0% 15%;
+    padding: 3% 20% 0% 20%;
     text-align: left;
 }
 
@@ -735,11 +722,11 @@ p{
     text-align: left;
 }
 #overview{
-    padding: 7% 15% 7% 15%;
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 #problem{
-    padding: 7% 15% 7% 15%;
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 
@@ -749,7 +736,7 @@ p{
 }
 
 #outcomes{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 #reflection{
@@ -769,46 +756,42 @@ p{
 /* JBTS Page Sections */
 
 #redesign{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
-#our-process{
-    padding: 7% 15%;
-    text-align: left;
-}
 #user-research{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 #ideate{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 #dgc{
-    padding:7% 15%;
+    padding:7% 20%;
     text-align: left;
 }
 
 #site-arch{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 #wireframing{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 #branding{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
 #complete-redesign{
-    padding: 7% 15%;
+    padding: 7% 20%;
     text-align: left;
 }
 
@@ -1569,7 +1552,7 @@ main {
 
   .phone-container {
     position: relative;
-    width: 85%; /* Adjust the width as needed */
+    width: 250px; /* Adjust the width as needed */
     height: 500px; /* Adjust the height as needed */
     border: 10px solid black; /* Optional: Add a border to simulate the phone frame */
     overflow: hidden; /* Optional: Hide any overflowing content */
