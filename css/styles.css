@@ -72,15 +72,21 @@
     left: 0;
     top: 0;
     width: 6px;
-    height: 110%;
+    height: 100%;
     background-color: #2D3559;
     margin-right: 5px;
     
   }
   
-  .padding {
+  .padding-text {
+    padding-left: 3%; /* Adjust the value for more space */
+    padding-top: 10px;
+  }
+
+  .padding-text2 {
     padding-left: 3%; /* Adjust the value for more space */
   }
+
 
 
 
@@ -184,7 +190,7 @@ h4{
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
-    line-height: normal;
+    line-height: 50px;
     letter-spacing: 0.02em;
     text-align: left;
     color: #000;
