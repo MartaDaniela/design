@@ -311,7 +311,7 @@ p{
     justify-content: center;
   }
 .lessSpace{
-    margin-top: -110px;
+    margin-top: -125px;
 }
 
 .vamos{
@@ -334,7 +334,7 @@ p{
 }
 
 .material-symbols-sharp{
-    margin-top: 0px;
+    margin-top: -10px;
 }
 .vamosScroll{
     color: #000;
@@ -722,18 +722,19 @@ p{
     text-align: left;
 }
 #overview{
-    padding: 7% 20% 7% 20%;
+    padding: 8% 20% 7% 20%;
     text-align: left;
 }
 #problem{
-    padding: 7% 20% 7% 20%;
+    padding: 2% 20% 9% 20%;
     text-align: left;
 }
 
-#goal{
-    padding: 7% 15%;
+#design-process{
+    padding: 0% 20% 5% 20%;
     text-align: left;
 }
+
 
 #outcomes{
     padding: 7% 20%;
@@ -770,7 +771,7 @@ p{
     text-align: left;
 }
 
-#dgc{
+#design-obj{
     padding:7% 20%;
     text-align: left;
 }
