@@ -79,12 +79,12 @@
   }
   
   .padding-text {
-    padding-left: 3%; /* Adjust the value for more space */
-    padding-top: 10px;
+    padding-left: 3%; 
+    padding-top: 5px; /* 10px if using h3 */
   }
 
   .padding-text2 {
-    padding-left: 3%; /* Adjust the value for more space */
+    padding-left: 3%;
   }
 
 
@@ -535,7 +535,7 @@ p{
     position: relative; top: -60px;
 }
 
-.hover-blue {
+/* .hover-blue {
     position: relative;
     display: inline-block;
 }
@@ -550,23 +550,20 @@ p{
     background-color: #ffffff50;
     opacity: 0;
     transition: opacity 0.3s ease;
-    border-radius: 20px;
   }
   
   .hover-blue:hover::after {
     opacity: 1;
   }
-/*
-  .project-cards img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  */
+*/
+  .project-cards{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
 
-.project-cards:hover{
-    opacity: 70%;
-    background-color:#c9f9ff50;
+.project-cards-effect:hover{
+    transition: 0.2s ease;
+    border-radius: 50px;
 }
 
 .inactive:hover{
@@ -577,10 +574,7 @@ p{
     color:#000;
 }
 
-.project-cards{
-    border: 1px solid #000;
-    border-radius: 20px;
-}
+
 
 .project-name{
     padding: 2% 0 0 0;
@@ -713,7 +707,12 @@ p{
  
 /* Case Study Sections */
 #project-title{
-    padding: 3% 20% 0% 20%;
+    padding: 3% 20% 1% 20%;
+    text-align: left;
+}
+
+#project-details{
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 
@@ -723,21 +722,18 @@ p{
     margin: 0 auto;
 }
 
-#project-details{
-    padding: 3% 15% 5% 15%;
-    text-align: left;
-}
-#overview{
-    padding: 8% 20% 7% 20%;
+
+#summary{
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 #problem{
-    padding: 2% 20% 9% 20%;
+    padding: 7% 20% 9% 20%;
     text-align: left;
 }
 
 #design-process{
-    padding: 0% 20% 5% 20%;
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 
@@ -758,12 +754,18 @@ p{
     text-align: left;
 }
 
+.color-box {
+
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
 
 
 /* JBTS Page Sections */
 
 #redesign{
-    padding: 7% 20%;
+    padding: 7% 20% 7% 20%;
     text-align: left;
 }
 
@@ -911,6 +913,7 @@ main {
   }
   
   .component {
+    margin-top: 100px;
     position: relative;
     border: 1px solid var(--color-primary);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.04),
@@ -1477,7 +1480,7 @@ main {
     color: #000;
 }
 .black-color:hover{
-    color: #e9c9a0ca;
+    color: #000;
 }
 
 :root {
