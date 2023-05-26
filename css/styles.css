@@ -464,7 +464,7 @@ p{
 
 /* Floating contact/social Icons */
 .icons{
-    top: 45%;
+    top: 30%;
     right: 12px;
     transform: translateY(-50%);
     position: fixed;
@@ -1002,7 +1002,7 @@ main {
 
 #cta{
     background-color: #000;
-    padding: 4% 10% 6% 10%;
+    padding: 4% 7.8% 6% 7.8%;
     text-align: left;
     border-radius: 20px 20px 0 0;
     margin: 0 var(--space);
@@ -1014,7 +1014,7 @@ main {
 
   footer {
     background-color: #000;
-    padding: 4% 10% 3% 10%;
+    padding: 4% 7.8% 3% 7.8%;
     font-family: 'Helvetica Neue';
     margin: 0 var(--space);
   }
